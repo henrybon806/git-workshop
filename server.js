@@ -10,6 +10,10 @@ app.get('/about', (req, res) => {
     res.send('<h1>About Page</h1><p>Its me!</p>');
 });
 
+app.get('/contact', (req, res) => {
+    res.send('<h1>Contact Page</h1>');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
