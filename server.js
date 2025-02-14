@@ -11,7 +11,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-    res.send('<h1>Contact Page</h1>');
+    res.send('<h1>Contact Page</h1><p>Email: hbono@berkeley.edu</p>');
 });
 
 app.listen(port, () => {
